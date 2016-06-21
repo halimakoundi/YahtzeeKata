@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace YahtzeeKata.Src
 {
-    public class Class1
+    public interface IConsole
     {
+        void PrintLine(string isAny);
+
     }
 }
